@@ -1,0 +1,63 @@
+img{
+    border: 1px solid red;
+}
+
+h1{
+    background-color: black;
+}
+
+body > h1, h2{
+    color: pink;
+}
+
+h1, h2{
+    color: gray;
+}
+
+section.s h2{
+    border: 2px solid green;
+} 
+
+#mon > * {
+    background-color: pink;
+}
+
+#mon > * > span {
+    background-color: yellow;
+}
+
+#mon * :not(#mon > *){
+    border: 1px solid red;
+}
+
+#wed:hover h2{
+    color: green;
+}
+
+#mon:hover h2, #tue:hover h2{
+    color: red;
+}
+
+li:first-of-type{
+    font-weight: bold;
+}
+
+li:nth-of-type(2){
+    color: red;
+}
+
+#tue div > span:first-of-type{
+    color: blue;
+}
+
+#tue div > span:nth-of-type(2){
+    font-size: 200%;
+}
+
+li:nth-of-type(9){
+    color: blue;
+}
+
+li:nth-of-type(5n + 3){
+    color: green;
+}
