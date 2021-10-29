@@ -1,62 +1,101 @@
+/* 1) Les ressources internes referencés sont le ficher css amazing.css
+   Les ressources externes referencés sont l'image dont le lien est: http://placekitten.com/g/250/250
+*/
+
+/* 2 */
 img{
     border: 1px solid red;
 }
+
+/* 3 */
 
 h1{
     background-color: black;
 }
 
-body > h1, h2{
-    color: pink;
-}
+/* 4 */
 
 h1, h2{
     color: gray;
 }
 
+/* 5 */
+
 section.s h2{
     border: 2px solid green;
 } 
+
+/* 6 */
 
 #mon > * {
     background-color: pink;
 }
 
-#mon > * > span {
-    background-color: yellow;
-}
+/* 7 */
 
 #mon * :not(#mon > *){
     border: 1px solid red;
 }
 
+/* 8 */
+
+#mon > * > span {
+    background-color: yellow;
+}
+
+/* 9 */
+
 #wed:hover h2{
     color: green;
 }
+
+/* 10 */
 
 #mon:hover h2, #tue:hover h2{
     color: red;
 }
 
+/* 11 */
+
+h1, h2{
+    color: pink;
+}
+
+/* 11) on observe le changement du couleur du heading en pink
+   12) si on les réordonne la couleur appliqué sera le gris 
+ */
+
+ /* 13 */
+
 li:first-of-type{
     font-weight: bold;
 }
+
+/* 14 */
 
 li:nth-of-type(2){
     color: red;
 }
 
+/* 15 */
+
 #tue div > span:first-of-type{
     color: blue;
 }
+
+/* 16 */
 
 #tue div > span:nth-of-type(2){
     font-size: 200%;
 }
 
+/* 17 */
+
 li:nth-of-type(9){
     color: blue;
 }
+
+/* 18 */
 
 li:nth-of-type(5n + 3){
     color: green;
