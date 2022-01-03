@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  background-color: #FFF1BD;
+  color: #146356;
+  font-family: 'Cairo', sans-serif;
+}
+
+.title{
+  text-align: center;
+  font-size: 3em;
+}
+
+.game{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dices{
+  width: 50%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+button{
+  font-size: 1.2em;
+  background-color: #146356;
+  border: none;
+  border-radius: 15px;
+  color: #FFF1BD;
+  padding: 8px 15px;
+  margin-top: 30px;
+}
+
+.numberOfTimes, .score{
+  font-size: 1.3em;
+}
+
+.result{
+  font-size: 2.5em;
+  margin-top: 30px;
+}
